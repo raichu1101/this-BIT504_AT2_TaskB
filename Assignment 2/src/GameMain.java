@@ -105,7 +105,7 @@ public class GameMain extends JPanel implements MouseListener{
 			}       
 			} else if (currentState == GameState.Draw) {          
 				// Display a message for Draw
-				statusBar.setForeground(Color.RED);          
+				statusBar.setForeground(Color.DARK_GRAY);          
 				statusBar.setText("It's a Draw! Click to play again.");       
 			} else if (currentState == GameState.Cross_Won) {          
 				// Display a message when "X" won the game
